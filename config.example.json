@@ -1,0 +1,16 @@
+{
+  "backend_base": "https://xspy.sii.edu.cn/educationalAdministrationBackend",
+  "username": "你的学号",
+  "password": "你的密码",
+  "school_year": "S003",
+  "probe_url": "https://xspy.sii.edu.cn/educationalStudent/config.js",
+
+  "targets": [
+    { "name": "课程显示名（自己起，用于日志）", "id": "课程实例ID（用 find_course 查）", "primary": true },
+    { "name": "捡漏课示例（未扩容，只能等退课）", "id": "另一个课程实例ID", "primary": false }
+  ],
+
+  "deadline": "2026-09-22T09:00:00",
+  "check_interval": 20,
+  "jitter": 4
+}
