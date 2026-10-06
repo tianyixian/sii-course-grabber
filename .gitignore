@@ -1,0 +1,12 @@
+# 真实配置（含账号密码，绝不入库）
+config.json
+myconfig.json
+
+# 运行时产物
+state.json
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+"check_repo.py" 
